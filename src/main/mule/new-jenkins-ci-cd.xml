@@ -9,9 +9,13 @@ http://www.mulesoft.org/schema/mule/api-gateway http://www.mulesoft.org/schema/m
 	<http:listener-config name="HTTP_Listener_config" doc:name="HTTP Listener config" doc:id="78356cb6-b64c-464a-b658-c5dedbd11b96" >
 		<http:listener-connection host="0.0.0.0" port="8081" />
 	</http:listener-config>
+<<<<<<< HEAD
 	<api-gateway:autodiscovery apiId="${api.id}" ignoreBasePath="true" doc:name="API Autodiscovery" doc:id="21fceb59-60a4-4e7e-97a6-fe3cf42b2658" flowRef="new-jenkins-ci-cdFlow" />
 	<configuration-properties doc:name="Configuration properties" doc:id="0e0d4afd-5383-4e1e-9ecb-83b16d6e7a91" file="config.properties" />
 	<flow name="new-jenkins-ci-cdFlow" doc:id="2aac5975-768c-4512-a2ea-6bcbe579c026" >
+=======
+			<flow name="new-jenkins-ci-cdFlow" doc:id="2aac5975-768c-4512-a2ea-6bcbe579c026" >
+>>>>>>> bdafbf66a3551a9b8f12b066b68dfb9fca55d3b2
 		<http:listener doc:name="Listener" doc:id="c3cee25c-ef78-48c1-8a6c-3dd1e487da8e" config-ref="HTTP_Listener_config" path="/test"/>
 		<logger level="INFO" doc:name="Logger" doc:id="1273fd16-12f0-4dc4-8aa8-230d4959a897" message="#[payload]"/>
 		<ee:transform doc:name="Transform Message" doc:id="c0911814-a363-44bc-bfb6-fb5c7daee19e" >

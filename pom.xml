@@ -42,10 +42,14 @@
 						<properties>
 							<http.port>8081</http.port>
 						</properties>
+<<<<<<< HEAD
 						<properties>
 							<api.id>18927573</api.id>
 						</properties>
 
+=======
+						
+>>>>>>> bdafbf66a3551a9b8f12b066b68dfb9fca55d3b2
 					</cloudHubDeployment>
 				</configuration>
 			</plugin>
