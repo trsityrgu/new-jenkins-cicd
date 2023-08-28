@@ -32,7 +32,7 @@
 						<muleVersion>4.4.0</muleVersion>
 						<username>trsitc25</username>
 						<password>814660Tt#</password>
-						<applicationName>new-jenkins-cicd-app</applicationName>
+						<applicationName>new-jenkins-cicd</applicationName>
 						<businessGroup>training</businessGroup>
 						<environment>Sandbox</environment>
 						<region>us-east-1</region>
